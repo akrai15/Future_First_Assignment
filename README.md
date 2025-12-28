@@ -6,7 +6,7 @@
 
 This project focuses on the quantitative analysis of the relationship between an external "Data" variable (presumed macroeconomic or sentiment indicator) and daily Stock Prices. The core objective was to determine if the external data serves as a leading indicator for price movements.
 
-By implementing a **Lagged Linear Regression Model**, the study successfully identified a statistically significant, albeit weak, negative correlation. The final model achieves an  of **0.9938**, leveraging an auto-regressive framework to predict prices with a Mean Absolute Percentage Error (MAPE) of less than **0.76%**.
+By implementing a **Lagged Linear Regression Model**, the study successfully identified a statistically significant, albeit weak, negative correlation. The final model achieves an  of R Square of **0.9938**, leveraging an auto-regressive framework to predict prices with a Mean Absolute Percentage Error (MAPE) of less than **0.76%**.
 
 ---
 
@@ -70,7 +70,7 @@ To transform raw data into a supervised learning format, the following pipeline 
 
 ### **A. Model Accuracy**
 
-* ** (0.9938):** The model captures 99.4% of the variance. This is primarily driven by the inertia of the stock price itself.
+* **R Square (0.9938):** The model captures 99.4% of the variance. This is primarily driven by the inertia of the stock price itself.
 * **RMSE ($48.76):** On a typical trading day, the model's prediction is within $48 of the actual closing price.
 
 ### **B. The "Signal" Discovery**

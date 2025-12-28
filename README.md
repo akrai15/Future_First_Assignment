@@ -90,10 +90,6 @@ An advanced rolling window analysis (60-day) revealed that the relationship is *
 
 
 
----
-Here is the detailed expansion for the "Future Recommendations" section. You can copy this directly into your report or README. It breaks down *why* these changes work mathematically and *how* to implement them.
-
----
 
 ## 6. Future Recommendations: Moving from Linear to Adaptive
 
